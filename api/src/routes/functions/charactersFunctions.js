@@ -49,11 +49,11 @@ const getCharacterById = (data) => {
     .then(character => character);
 }
 const createCharacter = (data) => {
-    const { name, nickname, image, status, createdInDb, occupation, birthday } = data;
+    const { name, nickname, img, status, createdInDb, occupation, birthday } = data;
     let createdCharacter = Character.create({
         name,
         nickname,
-        image,
+        img,
         birthday,
         status,
         createdInDb,

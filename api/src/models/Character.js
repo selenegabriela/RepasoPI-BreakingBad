@@ -25,7 +25,7 @@ module.exports = (sequelize) => {
     status: {
       type: DataTypes.ENUM('Alive', 'Presumed dead', 'Unknown', 'Deceased'),
     },
-    image: {
+    img: {
       type: DataTypes.STRING,
     },
     createdInDb: {
